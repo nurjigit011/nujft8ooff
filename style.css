@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.audioblock{
+    width:350px ;
+    height:350px ;
+    border: 1px solid ;
+    border-radius: 90px;
+    transform: 360deg ;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    transition: ;
+}
+    .audioblock1:hover{
+    display: flex;
+    transform: scale(1.9*);
+    box-shadow: 0px 0px 100px 30px;color:greenyellow ;
+    transition: 30;
+    border-radius: 10%;
+    
+
+    }
+     img{
+        width: 100%;
+        border-radius: 39px;
+        cursor: pointer;
+        margin:0;
+     }
